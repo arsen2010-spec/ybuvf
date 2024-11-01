@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Познавательный сайт</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+        }
+        .article {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Познавательный сайт</h1>
+        <p>Откройте для себя что-то новое каждый день</p>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#topics">Темы</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <main>
+        <section class="article">
+            <h2>Тема 1: Космос</h2>
+            <p>Космос — это безграничное пространство, которое всегда вызывает вопросы и интерес.</p>
+        </section>
+        <section class="article">
+            <h2>Тема 2: История</h2>
+            <p>История полна удивительных событий и личностей, которые повлияли на ход человечества.</p>
+        </section>
+        <section class="article">
+            <h2>Тема 3: Наука</h2>
+            <p>Наука — это мощный инструмент для познания мира и прогресса человечества.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Познавательный сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
